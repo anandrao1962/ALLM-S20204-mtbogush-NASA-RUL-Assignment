@@ -6,7 +6,7 @@ This project is part of the predictive maintenance assignment focused on estimat
 The objective is to predict the RUL of engines to improve maintenance schedules and avoid unexpected failures.
 
 
-## Repository Structure:
+## Repository Structure
 - **code/**
   - `Starter_Notebook_Predictive_Maintenance_using_LSTM-1 (3).ipynb`: The main Jupyter notebook containing the entire workflow including data preprocessing, model training, evaluation, and visualization.
   - `main_rul.py`: A Python script designed to load and evaluate the saved LSTM and GRU models on test data.
@@ -20,31 +20,14 @@ The objective is to predict the RUL of engines to improve maintenance schedules 
 
 - **README.md**: Provides a detailed overview of the project, instructions for setup, and how to run the scripts.
 
-- **requirements.txt**: Lists the Python libraries required to run the project.
 
-Feel free to update file names, paths, or descriptions as needed based on your specific implementation! Let me know if you need further adjustments.
+## Getting Started
+If you download the jupyter notebook and run it in google colab, all will run accordingly.
 
+## Running the Jupyter Notebook
+To run the entire workflow, open Starter_Notebook_Predictive_Maintenance_using_LSTM-1 (3).ipynb in Google Colab or any Jupyter Notebook environment. This notebook includes:
 
-## test
-NASA-RUL-Assignment/
-│
-├── code/                         # Source code files
-│   ├── main_rul.py               # Main script for evaluating models on test data
-│   ├── feature_engineering.py    # Script for feature engineering and data preprocessing
-│   ├── hyperparameter_tuning.py  # Script for hyperparameter tuning of LSTM and GRU models
-│   ├── train_lstm.py             # Script for training the LSTM model
-│   ├── train_gru.py              # Script for training the GRU model
-│   └── utils.py                  # Utility functions for data loading and processing
-│
-├── models/                       # Folder containing trained model files
-│   ├── final_lstm_model.keras    # Saved LSTM model
-│   ├── final_gru_model.keras     # Saved GRU model
-│
-├── data/                         # Folder for storing dataset files
-│   ├── train/                    # Training data files
-│   ├── test/                     # Test data files
-│   └── processed/                # Processed data files ready for modeling
-│
-├── README.md                     # Project overview and instructions
-└── requirements.txt              # Python dependencies
-
+Data Preprocessing and Feature Engineering
+Hyperparameter Tuning for LSTM and GRU models
+Model Training and Evaluation
+Visualization of Results
