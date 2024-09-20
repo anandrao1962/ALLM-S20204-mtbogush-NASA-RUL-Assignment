@@ -30,7 +30,7 @@ If you download the jupyter notebook and run it in google colab, all will run ac
 ## Running the Jupyter Notebook
 To run the entire workflow, open Starter_Notebook_Predictive_Maintenance_using_LSTM-1 (3).ipynb in Google Colab or any Jupyter Notebook environment. This notebook includes:
 
-Data Preprocessing and Feature Engineering
-Hyperparameter Tuning for LSTM and GRU models
-Model Training and Evaluation
-Visualization of Results
+- Data Preprocessing and Feature Engineering
+- Hyperparameter Tuning for LSTM and GRU models
+- Model Training and Evaluation
+- Visualization of Results
