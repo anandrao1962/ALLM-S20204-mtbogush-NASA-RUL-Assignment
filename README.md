@@ -23,3 +23,28 @@ The objective is to predict the RUL of engines to improve maintenance schedules 
 - **requirements.txt**: Lists the Python libraries required to run the project.
 
 Feel free to update file names, paths, or descriptions as needed based on your specific implementation! Let me know if you need further adjustments.
+
+
+## test
+NASA-RUL-Assignment/
+│
+├── code/                         # Source code files
+│   ├── main_rul.py               # Main script for evaluating models on test data
+│   ├── feature_engineering.py    # Script for feature engineering and data preprocessing
+│   ├── hyperparameter_tuning.py  # Script for hyperparameter tuning of LSTM and GRU models
+│   ├── train_lstm.py             # Script for training the LSTM model
+│   ├── train_gru.py              # Script for training the GRU model
+│   └── utils.py                  # Utility functions for data loading and processing
+│
+├── models/                       # Folder containing trained model files
+│   ├── final_lstm_model.keras    # Saved LSTM model
+│   ├── final_gru_model.keras     # Saved GRU model
+│
+├── data/                         # Folder for storing dataset files
+│   ├── train/                    # Training data files
+│   ├── test/                     # Test data files
+│   └── processed/                # Processed data files ready for modeling
+│
+├── README.md                     # Project overview and instructions
+└── requirements.txt              # Python dependencies
+
