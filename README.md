@@ -15,8 +15,11 @@ The objective is to predict the RUL of engines to improve maintenance schedules 
 - **data/**: Contains raw datasets in txt format required for training and testing models.
   - `train_FD001.txt`, `test_FD001.txt`, and `RUL_FD001.txt` are sample files; make sure to adjust these based on the datasets you actually use.
 
-- **models/**: Stores the finalized models after evaluation.
-  - `final_lstm_model.keras` & `final_gru_model.keras`: Final versions of the models saved after the training and evaluation phase.
+- **visualizations/**: This folder contains all the visuals I produced in my notebook. I have a total of 12 images. Each image that has an _n at the end represents the order of image creation.
+  - `CM_1.png` - Is the first image created
+  - ....
+  - `Bonus_Attempt_12.png` - Is the last image created
+
 
 - **README.md**: Provides a detailed overview of the project, instructions for setup, and how to run the scripts.
 
